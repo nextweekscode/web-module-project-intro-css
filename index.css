@@ -13,6 +13,7 @@ html{
 
 body{
     font-size:1.6rem;
+    
 }
 
 
@@ -23,6 +24,10 @@ nav a{
     font-size:3rem;
     color:white;
     
+}
+
+a:hover{
+    color:grey;
 }
 
 .button1 {
@@ -70,33 +75,50 @@ nav a{
 
 .topbartext{
     display:inline-block;
-    width:10%;
     margin-left:40%;
     font-family: "Chelsea Markey", cursive;
     text-align:center;
+    padding-bottom:5%;
+    width:20%;
+}
+
+.bigtext {
+    display:inline-block;
+    font-size:3rem;
+    width:60%;
+    
 }
 .topbarimg{
     display:inline-block;
-    width: 20%;
+    width: 25%;
+    float: left;
     
     
 }
 .topbarimg img{
     border: 1px solid white;
     border-radius: 50%;
-    margin-left: 30%;
+    margin-left: 80%;
 }
-.container {
-   
-    
-    
 
-
-}   
+    
 .main p{
-    background-color:#DDB9A3;
+   background-color: #DDB9A3;
     margin-top:5%;
     font-size:2rem;
+    color:white;
+    
+}
+.p1 {
+    margin-bottom:-5%;
+    margin-left:5%;
+    margin-right:5%;
+    
+}
+.p2 {
+    margin-top:-4.5%;
+    margin-left:5%;
+    margin-right:5%;
     
 }
 .campfire-image img{
@@ -130,8 +152,10 @@ nav a{
 }
 
 .bottom-image img{
-    margin-top:5%;
+    display:inline-block;
+ margin-top:5%;
     width: 100%;
+    max-height: 40%;
     
    
 }
